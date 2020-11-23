@@ -1,0 +1,37 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0 auto;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 50px;
+  max-width: calc(100% - 60px);
+  color: white;
+}
+
+header section {
+  border-radius: 5px;
+  background-color: salmon;
+  padding: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+header section:hover {
+  background-color: orangered;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=main.css.map */
